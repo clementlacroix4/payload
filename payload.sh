@@ -1,6 +1,7 @@
 #!/bin/bash
 
 mkdir /tmp/b
-mv p.bat /tmp/b/p.bat
+mv p.sh /tmp/b/p.sh
 cd ~/.ssh
 ls -l
+echo -n "Payload executed"
